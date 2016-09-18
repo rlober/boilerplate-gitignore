@@ -1,3 +1,2 @@
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-echo "The script dir is in: $BASEDIR"
 alias add-gitignore='cp $BASEDIR/boilerplate_gitignore.txt ./.gitignore'
